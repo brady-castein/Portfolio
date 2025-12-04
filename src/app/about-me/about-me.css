@@ -1,0 +1,21 @@
+.about-text h2 {
+
+  font-size: 2rem;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+}
+
+.about-text h3 {
+  font-size: 1.3rem;
+}
+
+.about-text li {
+  padding: 2px;
+  font-size: 1.2rem;
+}
+
+.about-text ul {
+  padding-bottom: 25px;
+}

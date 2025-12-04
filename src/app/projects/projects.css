@@ -1,0 +1,89 @@
+
+/* Base styling */
+.project-section {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, coral, orange);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: background 0.5s ease;
+}
+
+/* Change background rotation when hovering */
+.project-section:hover {
+  background: linear-gradient(245deg, coral, orange);
+}
+
+.project-section h2 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  margin-bottom: 40px;
+}
+
+/* Grid for projects */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Project cards */
+.project-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Project hover effects */
+.project-card:hover {
+  transform: scale(1.05) rotateY(5deg);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Project images */
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+/* Project images effects */
+.project-card:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.85);
+}
+
+/* Overlay effect */
+.project-card .overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  transition: bottom 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+/* Makes overlay visible when hovering */
+.project-card:hover .overlay {
+  bottom: 0;
+  opacity: 1;
+}
+
+
+

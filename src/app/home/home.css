@@ -1,27 +1,23 @@
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, coral, orange);
+  text-align: center;
+  color: white;
+}
+
+.home-wrapper:hover {
+  background: linear-gradient(245deg, coral, orange);
+}
+
 .home-content h2 {
-  font-size: 16px;
-  text-align: center;
-  font-weight: normal;
-  color: silver;
-  padding: 0;
-  margin: 5px;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-
-.home-content h1{
-  text-align: center;
-  font-size: 64px;
-  color: coral;
-  padding: 0;
-  margin: 0;
-  text-shadow: black 2px 2px;
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
 }
-
-.home-content p {
-  text-align: center;
-}
-
-.home-content{
-  padding: 15px;
-}
-

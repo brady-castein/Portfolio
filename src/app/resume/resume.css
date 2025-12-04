@@ -1,0 +1,41 @@
+/* Base styling */
+.resume-section {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+
+/* Create a container around the resume image */
+.resume-container {
+  display: inline-block;
+  position: relative;
+  border-radius: 15px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Header styling */
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: coral;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+/* Resume image styling */
+.resume-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Resume image hover effect */
+.resume-image img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}

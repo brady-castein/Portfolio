@@ -1,0 +1,59 @@
+/* Base styling */
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, coral, orange);
+}
+
+/* Text styling */
+.contact-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+/* Changes gradient roation when hovering */
+.contact-section:hover {
+  background: linear-gradient(245deg, coral, orange);
+}
+
+/* Contact list styling */
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.contact-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Contact links as buttons */
+.contact-list a {
+  text-decoration: none;
+  color: white;
+  background-color: coral;
+  padding: 12px 25px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Hover effect on contact methods */
+.contact-list a:hover {
+  background-color: #ff7f50;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+

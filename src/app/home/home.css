@@ -1,0 +1,23 @@
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, coral, orange);
+  text-align: center;
+  color: white;
+}
+
+.home-wrapper:hover {
+  background: linear-gradient(245deg, coral, orange);
+}
+
+.home-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}

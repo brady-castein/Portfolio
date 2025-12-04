@@ -1,0 +1,19 @@
+<header class="navbar">
+  <nav>
+    <button (click)="scrollTo('home')">Home</button>
+    <button (click)="scrollTo('about')">About Me</button>
+    <button (click)="scrollTo('projects')">Projects</button>
+    <button (click)="scrollTo('resume')">Resume</button>
+    <button (click)="scrollTo('contact')">Contact Me</button>
+  </nav>
+</header>
+
+<main>
+  <div class="app-content">
+  <section id="home" data-aos="fade-up"><app-home/></section>
+  <section id="about" data-aos="fade-up"><app-about-me/></section>
+  <section id="projects" data-aos="fade-up"><app-projects/></section>
+  <section id="resume" data-aos="fade-up"><app-resume/></section>
+  <section id="contact" data-aos="fade-up"><app-contact/></section>
+  </div>
+</main>
